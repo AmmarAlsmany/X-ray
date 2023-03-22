@@ -1,0 +1,105 @@
+body {
+
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+      'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+      sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background: #1A1F31 !important;
+  }
+
+  *{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+  }
+  .navbar{
+    /* background-color: #1C2235; */
+    background: linear-gradient(-150deg,#2e304f, #1C2235) ;
+  }
+  .faceDetail{
+    background: #272B3E  !important; 
+    border-radius: 12px;
+  }
+  code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+      monospace;
+  }
+  .w-35{
+  
+    width: 20%;
+  }
+  .w-10{
+    width: 14% !important;
+  }
+  .MainDiv{
+    height:82vh;
+    border-radius: 12px;
+    background-image: url('./assets/xray.jpg');
+    background-position: center;
+    background-size:cover;
+   
+    /* border:0.5px solid #2C3043; */
+  }
+  .xryImg{
+    background-color: rgb(39, 43, 62);
+  }
+  .bradius{
+    border-radius: 12px;
+  }
+  .introDiv{
+    display: block;
+    position: relative;
+    overflow: hidden;
+    background-color: rgba(39, 43, 62,0.9);
+    /* vertical-align: middle; */
+    padding-top: 5rem;
+    padding-bottom: 12.2rem;
+    float: left;
+    border-radius: 4px;
+    text-align: left;
+    z-index: 10000;
+    font-family: 'Lato', sans-serif;
+  }
+  .headingRt{
+    font-family: 'Cairo', sans-serif;
+    color:#1E9CE5;
+    font-weight: bolder;
+  }
+.xraybtn{
+    height: 3rem !important;
+    width:8rem !important;
+    /* background: linear-gradient(-100deg,#1C2235,#1E9CE5) ; */
+    background: #42c1fb;
+    filter:drop-shadow(0 0 80 #42c1fb);
+    border:none;
+    color:white;
+    border-radius: 5px;
+}
+.xraybtn:hover{
+    background: none ;
+    border:1px solid #1E9CE5;
+    color: white;
+    border-radius: 5px;
+} 
+.box{
+    box-sizing: border-box;
+    border: 5px solid transparent;
+    background-clip: padding-box;
+}
+.w-60{
+  width: 60%;
+}
+.imgBorder{
+  border-radius: 12px;
+  border:1px solid gray;
+
+}
+
+
+
+
+
+
+  
+  

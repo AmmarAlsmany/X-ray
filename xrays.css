@@ -1,0 +1,223 @@
+body {
+
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+      'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+      sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background: #1A1F31 !important;
+  }
+  .w-35{
+    width: 15%;
+  }
+  .w-10{
+    width: 7% !important;
+  }
+.btn-qss{
+    background: linear-gradient(to left, #192a56,  #2d3342,#192a56) !important;
+    color: white  !important;
+    border-radius: 10px  !important;
+    border: 0.5px solid rgb(42, 42, 52)  !important;
+   transition: 1s;
+}
+.btn-qss:hover{
+
+    background:none !important;
+    border:1px solid white !important;
+  
+}
+
+a{
+    text-decoration: none !important;
+}
+a:hover{
+    color:rgb(28, 34, 53) !important;
+    font-weight: bold;
+}
+  
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+  }
+.demo-img{
+    /* box-shadow:8px 8px 32px rgba(9, 70, 163,0.3); */
+    border-radius: 10px;
+}
+.btn-qss{
+    background: rgb(28, 34, 53);
+    color:white;
+    border-radius: 10px;
+     border:0.5px solid rgb(42, 42, 52) 
+}
+.btn-qss:hover{
+    background: none;
+    border:1px solid white;
+    color:white;
+    border-radius: 10px;
+}
+.card{
+    background: none !important;
+    border:none !important;
+    align-items: center;
+}
+.xborder{
+    /* border:1px solid gray; */
+    border-radius: 12px;
+}
+.xray_demo:hover{
+    cursor: pointer;
+    box-shadow: 4px 4px 32px rgb(28, 34, 53);
+}
+.nobg-img img{
+    border-radius: 15px;
+}
+.Demo-Title{
+    color: white !important;
+}
+.Demo-Div{
+    border:1px dashed gray;
+    border-radius: 12px;
+    /* background: rgb(120, 131, 137); */
+}
+.card-img-rad{
+    border-radius: 10px;
+    cursor: pointer;
+}
+.img-array{
+   
+    height: 31rem;
+    background: rgb(28, 34, 53);
+    border-radius: 10px;
+    overflow:scroll;
+} 
+.img-center{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+::-webkit-scrollbar {
+    display: none;
+}
+.rslt{
+    position: relative;
+    float: left;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.intro-Div{
+    /* background-image: url('./assets/xray.jpg');*/
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 10px; 
+    border:1px dashed gray !important;
+}
+.mtitle{
+    color:rgb(221, 222, 224);
+    font-family: Merriweather;
+}
+.Title{
+
+    font-weight:bold;
+    color: #f0e6e6;
+    font-size: 45px;
+    font-family: Oswald;
+    /* word-spacing: 6px; */
+}
+.para{
+    color:rgb(226, 228, 230);
+    font-family: Roboto Slab;
+    font-size: 16px;
+}
+.TitleDiv{
+    background: rgba(28, 34, 53,0.4);
+    border-radius: 10px;
+    height: 63vh;
+    /* border:1px dashed gray; */
+}
+.contct-btn{
+    color: white;
+}
+.contct-btn:hover{
+    color: white;
+}
+.box{
+    box-sizing: border-box;
+    border: 5px solid transparent;
+    background-clip: padding-box;
+}
+.modal-content {
+
+    background-color: rgb(31, 40, 57)  !important;
+ 
+    border: 1px solid rgba(0,0,0,.2) !important;
+}
+
+.loader {
+    position: absolute;
+    top: calc(50% - 1rem);
+    left: calc(50% - 15rem);
+    width: 6rem;
+    height: 6rem;
+    border-radius: 50%;
+    perspective: 800px;
+  }
+  
+  .inner {
+    position: absolute;
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;  
+  }
+  
+  .inner.one {
+    left: 0%;
+    top: 0%;
+    animation: rotate-one 1s linear infinite;
+    border-bottom: 5px solid #3c3cd6;
+  }
+  
+  .inner.two {
+    right: 0%;
+    top: 0%;
+    animation: rotate-two 1s linear infinite;
+    border-right: 5px solid #39e20b;
+  }
+  
+  .inner.three {
+    right: 0%;
+    bottom: 0%;
+    animation: rotate-three 1s linear infinite;
+    border-top: 5px solid #ce10a8;
+  }
+  
+  @keyframes rotate-one {
+    0% {
+      transform: rotateX(35deg) rotateY(-45deg) rotateZ(0deg);
+    }
+    100% {
+      transform: rotateX(35deg) rotateY(-45deg) rotateZ(360deg);
+    }
+  }
+  
+  @keyframes rotate-two {
+    0% {
+      transform: rotateX(50deg) rotateY(10deg) rotateZ(0deg);
+    }
+    100% {
+      transform: rotateX(50deg) rotateY(10deg) rotateZ(360deg);
+    }
+  }
+  
+  @keyframes rotate-three {
+    0% {
+      transform: rotateX(35deg) rotateY(55deg) rotateZ(0deg);
+    }
+    100% {
+      transform: rotateX(35deg) rotateY(55deg) rotateZ(360deg);
+    }
+  }

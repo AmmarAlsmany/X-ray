@@ -1,0 +1,229 @@
+body {
+
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+      'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+      sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background: #1A1F31 !important;
+  }
+
+  *{
+    padding:0;
+    margin:0;
+  }
+  .navbar{
+    /* background-color: #1C2235; */
+    background: linear-gradient(-150deg,#2e304f, #1C2235) ;
+  }
+  .faceDetail{
+    background: #272B3E  !important; 
+    border-radius: 12px;
+  }
+  code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+      monospace;
+  }
+  .w-35{
+  
+    width: 25%;
+  }
+  .w-10{
+    width: 14% !important;
+  }
+  .CamDiv{
+    height:50vh;
+    border-radius: 12px;
+    background-color: #272B3E;
+    border:0.5px solid #2C3043;
+  }
+  .bradius{
+    border-radius: 12px;
+  }
+  /* .video{
+    width: 100%;
+    height:100%;
+    object-fit: cover;
+  } */
+  /* .CamDiv{
+    margin: 0 auto;
+    position: relative;
+  }
+  
+  .video {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    object-fit: cover;
+    top: 0;
+    left: 0;
+  }
+  
+  .canvas {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 10;
+  } */
+  video,canvas {
+    width:48rem;
+    height:43rem;
+    object-fit: cover;
+    display: block;
+    position:absolute;
+    }
+  .dc{
+    height: 20vh;
+  }
+  .gdcolor{
+    color: #b0b7ff;
+  }
+  .titleFamily{
+    font-family: 'Cairo', sans-serif;
+    color:white;
+  }
+  .attrDiv{
+    background-image: linear-gradient(to right,#1b3855 0%,#043551 100%);
+    border-radius: 10px;
+    /* background-image: linear-gradient(to right,#255b63 0%,#08545a 100%); */
+    /* background-image: linear-gradient(to right,#272B3E 0%,#282B46 100%); */
+  }
+  
+  
+  /* .ResultSect{
+    display: none !important;
+  } */
+  video{
+    border-radius: 12px;
+  }
+  
+  /* image */
+  #circle{
+    position: relative;
+    width:20vh;
+    height:20vh;
+    background:linear-gradient(#33ccff,#ff0066);
+    border-radius: 50%;
+    
+  }
+  
+  @keyframes animate {
+    from{
+      transform: rotate(0deg);
+    }
+    to{
+      transform : rotate(360deg);
+    }
+  }
+  #circle::after{
+    
+    content:'';
+    position: absolute;
+    top:30px;
+    right: 30px;
+    bottom: 30px;
+    left:30px;
+    border-radius:50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  #circle span{
+    animation:animate 5s linear infinite;
+    position: absolute;
+    width: 100%;
+    height:100%;
+
+    border-radius: 50%;
+    
+  }
+  #circle span:nth-child(1){
+    filter:blur(5px);
+  }
+  #circle span:nth-child(2){
+    filter:blur(10px);
+  }
+  #circle span:nth-child(3){
+    filter:blur(20x);
+  }
+  #circle span:nth-child(4){
+    filter:blur(55px);
+  }
+  
+  .smtitle{
+    color:#1abb9c;
+  }
+  /* text */
+  #pTitle{
+    position: relative;
+    font-size: 5vw;
+    color: #252839;
+    -webkit-text-stroke: 0.3vw #383d52;
+  }
+  #pTitle:before{
+  
+      content:attr(data-text);
+      position:absolute;
+      top:0;
+      left:0;
+      width:0;
+      height:100%;
+      color: #1abb9c;
+      font-weight: bold;
+      -webkit-text-stroke: 0vw #383d52;
+      border-right:2px solid #1abb9c;
+      overflow: hidden;
+      animation:animat 6s linear infinite;
+  }
+  @keyframes animat {
+    
+    0%,10%,100%{
+      width:0;
+    }
+    70%,90%{
+      width: 100%;
+    }
+  }
+  
+  
+  .gender{
+    animation: fade-up 1.5s linear;
+  }
+  .age{
+    animation: fade-up 2s linear;
+  }
+  .exp{
+    animation: fade-up 2.5s linear;
+  }
+  .status{
+    animation: fade-up 3s linear;
+  }
+  .profpic{
+    animation: fade-up 5s linear;
+  }
+  @keyframes fade-up {
+    
+    0%{
+      opacity: 0;
+      transform: translateY(-30px) scale(0.9);
+    }
+    100%{
+      opacity: 1;
+      transform: translateY(0px) scale(1);
+    }
+  }
+
+
+  .whiteList{
+    background:linear-gradient(#22a035, #198754);
+  }
+  .blackList{
+  
+    background:linear-gradient(#ca5e89, #ff0066);
+  }
+  .unkList{
+    background:linear-gradient(#33ccff,#ff0066);
+  }
